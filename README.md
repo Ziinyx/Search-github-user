@@ -18,4 +18,4 @@ You will also see any lint errors in the console.
 
 ## See Live
 
-[Live: github user finder](https://search-github-user.netlify.app).
+[Live: github user finder](https://search-github-adi.netlify.app).
