@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	font-size: 14px;
+	line-height: 160%;
+}
+
+body{
+	width: 85vw;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	background: #141c2f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* github users */
+
+.githubUser{
+	margin: 2rem 0;
+	color: #8e93a6;
+}
+
+nav{
+	margin: 0 auto;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.color{
+	border: none;
+	background: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.searchBar, .user{
+	background: #1f2a48;
+	border-radius: 10px;
+	color: #8e93a6;
+}
+
+.searchBar{
+	margin: 1em auto;
+	padding: 0.4em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.searchBar input{
+	width: 100%;
+	background: #1f2a48;
+	border: none;
+	outline: none;
+	padding: 0 2em;
+	color: white;
+}
+
+.searchBar input:focus{
+	background: none;
+}
+.search{
+	padding: 1em;
+	border: none;
+	border-radius: 10px;
+	background: #0079fe;
+	color: white;
+	font-weight: bold;
+}
+.search:hover{
+	background: #141c2f;
+	color: #0079fe;
+}
+
+.user{
+	margin: 1em auto;
+	padding: 1.4em;
+	border: none;
+	text-align: left;
+}
+
+.profileContainer{
+	margin: 1.3rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: left;
+	gap: 1.5rem;
+}
+
+.profileContainer img{
+	width: 30%;
+	border-radius: 50%;
+}
+
+.userProfile h2{
+	color: white;
+}
+
+.userProfile h3{
+	font-weight: normal;
+	color: #0f6edb;
+}
+
+.userMetrics{
+	margin: 1em 0;
+	padding: 1em 0;
+	background: #141c2f;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.userMetrics h3{
+	color: white;
+}
+
+.userReach p{
+	width: 50%;
+}
+
+.userReach a{
+	text-decoration: none;
+	color: white;
+}
+
+.img{
+	padding: 0.2rem;
+	width: 26px;
+	height: 26px;
+	display: inline;
+	border-radius: 50%;
+	background: white;
+}
+
+footer{
+	margin: 2rem;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (min-width: 600px){
+
+.profileContainer img{
+	width: 25%;
+}
+
+.userReach{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.3rem;
+	justify-content: space-between;
+	align-items: start;
+}
+}
+
+@media screen and (min-width: 900px){
+	
+	body{
+		width: 70vw;
+	}
+}
+
+/*  Credits
+
+<a href="https://iconscout.com/icons/twitter" target="_blank">Twitter Icon</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/location-pin" target="_blank">Location pin Icon</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/link" target="_blank">Link Icon</a> by <a href="https://iconscout.com/contributors/phosphoricons">Phosphor Icons</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/office" target="_blank">Office Icon</a> by <a href="https://iconscout.com/contributors/fahmi-horizon" target="_blank">Fahmi Horizon</a>
+    */
+
